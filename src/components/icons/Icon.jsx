@@ -6,4 +6,4 @@ function Icon({ id, className = '' }) {
     )
 }
 
-export default Icon;
+export default Icon
