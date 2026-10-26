@@ -2,10 +2,10 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Menu from "./components/Menu";
-import { useGetProductsQuery } from "./store/api";
 import { menuItems } from "./data/menuItems";
 import CheckOutPage from "./components/CheckOutPage";
 import CartDrawer from "./components/CartDrawer";
+import { useGetProductsQuery } from "./stors/api";
 
 function App() {
   const [cart, setCart] = useState({});
