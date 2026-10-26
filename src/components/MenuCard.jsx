@@ -23,7 +23,7 @@ const MenuCard = ({ i, addToCart, qty, decrementItem }) => {
             <h3>{i.name}</h3>
             <span className="menu-card_price">{i.price} SAR</span>
             </div>
-        <p>{i.description}</p>
+            <p>{i.description}</p>
         </div>
 
         <div className="menu-card_footer">
@@ -39,9 +39,9 @@ const MenuCard = ({ i, addToCart, qty, decrementItem }) => {
             </div>
             ) : (
             <button
-            className="btn btn--add"
-            type="button"
-            onClick={() => addToCart(i.id)}
+                className="btn btn--add"
+                type="button"
+                onClick={() => addToCart(i.id)}
             >
                 <Icon id="plus-icon" /> Add to Cart
             </button>
