@@ -1,4 +1,3 @@
-import { menuItems } from "../data/menuItems";
 import MenuCard from "./MenuCard";
 
 
